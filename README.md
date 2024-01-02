@@ -10,3 +10,5 @@ This repository contains the LaTeX source code and necessary files to build your
 - **Version:** 1.2 (16/9/2014)
 - **Repository:** [Deedy Resume GitHub Repository](https://github.com/deedydas/Deedy-Resume)
 - **LaTeX Compiler Requirement:** XeLaTeX
+
+Download resume.pdf for resume
