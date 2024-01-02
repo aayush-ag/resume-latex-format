@@ -17,33 +17,6 @@
 % operating system or comment the line out to use the default font.
 % 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% 
-% TODO:
-% 1. Integrate biber/bibtex for article citation under publications.
-% 2. Figure out a smoother way for the document to flow onto the next page.
-% 3. Add styling information for a "Projects/Hacks" section.
-% 4. Add location/address information
-% 5. Merge OpenFont and MacFonts as a single sty with options.
-% 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%
-% CHANGELOG:
-% v1.1:
-% 1. Fixed several compilation bugs with \renewcommand
-% 2. Got Open-source fonts (Windows/Linux support)
-% 3. Added Last Updated
-% 4. Move Title styling into .sty
-% 5. Commented .sty file.
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%
-% Known Issues:
-% 1. Overflows onto second page if any column's contents are more than the
-% vertical limit
-% 2. Hacky space on the first bullet point on the second column.
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
 
 \documentclass[]{deedy-resume-openfont}
 \usepackage{fancyhdr}
@@ -65,8 +38,8 @@
 %     TITLE NAME
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\namesection{Debarghya}{Das}{ \urlstyle{same}\href{http://debarghyadas.com}{debarghyadas.com}| \href{http://fb.co/dd}{fb.co/dd}\\
-\href{mailto:deedy@fb.com}{deedy@fb.com} | 607.379.5733 | \href{mailto:dd367@cornell.edu}{dd367@cornell.edu}
+\namesection{Aayush}{Gupta}{ \urlstyle{same}\href{https://aboutme.wafercode.com}{aboutme.wafercode.com}| \href{https://www.linkedin.com/in/agadmin/}{www.linkedin.com/in/agadmin}\\
+\href{mailto:aayush23467@gmail.com}{aayush23467@gmail.com} | +91-828.753.11 | \href{mailto:agcdev0@gmail.com}{agcdev0@gmail.com}
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -83,22 +56,17 @@
 
 \section{Education} 
 
-\subsection{Cornell University}
-\descript{MEng in Computer Science}
-\location{Dec 2014 | Ithaca, NY}
+\subsection{Jamia Millia Islamia}
+\descript{BS/B.Tech in ECE}
+\location{2021-2025 | New Delhi, India}
+Faculty of Engineering and Technology \\
+% Magna Cum Laude\\
+% \location{ Cum. GPA: 3.83 / 4.0 \\
+% Major GPA: 3.9 / 4.0}
 \sectionsep
 
-\subsection{Cornell University}
-\descript{BS in Computer Science}
-\location{May 2014 | Ithaca, NY}
-College of Engineering \\
-Magna Cum Laude\\
-\location{ Cum. GPA: 3.83 / 4.0 \\
-Major GPA: 3.9 / 4.0}
-\sectionsep
-
-\subsection{La Martiniere for Boys}
-\location{Grad. May 2011|  Kolkata, India}
+\subsection{DPSG, Meerut Road}
+\location{Grad. April 2020| Ghaziabad, India}
 \sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -106,51 +74,53 @@ Major GPA: 3.9 / 4.0}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Links} 
-Facebook:// \href{https://facebook/dd}{\bf dd} \\
-Github:// \href{https://github.com/deedydas}{\bf deedydas} \\
-LinkedIn://  \href{https://www.linkedin.com/in/debarghyadas}{\bf debarghyadas} \\
-YouTube://  \href{https://www.youtube.com/user/DeedyDash007}{\bf DeedyDash007} \\
-Twitter://  \href{https://twitter.com/debarghya_das}{\bf @debarghya\_das} \\
-Quora://  \href{https://www.quora.com/Debarghya-Das}{\bf Debarghya-Das}
+Github:// \href{https://github.com/aayush-ag}{\bf aayush-ag} \\
+LinkedIn://  \href{https://www.linkedin.com/in/agadmin}{\bf linkedin.com/in/agadmin} \\
+Kaggle:// \href{https://www.kaggle.com/agadmin}{\bf agadmin} \\
+Twitter://  \href{https://twitter.com/agcdev0}{\bf @agcdev0} \\
+Quora://  \href{https://www.quora.com/profile/Aayush-Gupta-198}{\bf Aayush-Gupta-198}
+% YouTube://  \href{https://www.youtube.com/user/DeedyDash007}{\bf DeedyDash007} \\
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     COURSEWORK
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Coursework}
-\subsection{Graduate}
-Advanced Machine Learning \\
-Open Source Software Engineering \\
-Advanced Interactive Graphics \\
-Compilers + Practicum \\
-Cloud Computing \\
-Evolutionary Computation \\
-Defending Computer Networks \\
-Machine Learning \\
-\sectionsep
-
 \subsection{Undergraduate}
-Information Retrieval \\
-Operating Systems \\
-Artificial Intelligence + Practicum \\
-Functional Programming \\
-Computer Graphics + Practicum \\
-{\footnotesize \textit{\textbf{(Research Asst. \& Teaching Asst 2x) }}} \\
-Unix Tools and Scripting \\
+Computer Architecture \\
+DBMS \\
+Microprocessor \\
+Signal and Systems \\
+Assembly Language \\
+Control Systems \\
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     SKILLS
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
 \section{Skills}
+
 \subsection{Programming}
-\location{Over 5000 lines:}
-Java \textbullet{}   Shell \textbullet{} Python \textbullet{} Javascript \\
-OCaml \textbullet{} Matlab \textbullet{} Rails \textbullet{} \LaTeX\ \\ 
-\location{Over 1000 lines:}
-C \textbullet{} C++ \textbullet{} CSS \textbullet{} PHP \textbullet{} Assembly \\
-\location{Familiar:}
-AS3 \textbullet{} iOS \textbullet{} Android \textbullet{} MySQL
+Rust \textbullet{} C++ \textbullet{} Python \textbullet{} Javascript \\
+Golang \textbullet{} MEAN Stack \textbullet{} Rails \\
+\textbullet{} C \textbullet{} PHP \textbullet{} CSS
+
+\subsection{In Learning}
+Machine Learning (ML) \textbullet{} Data Science (DS)
+
+\subsection{Tools}
+Docker \textbullet{} Terraform \textbullet{} Ansible \\
+PAAS (Heroku, etc.) \textbullet{} IAAS (GCP/AWS) (VM’s, VPC Architecture) \\
+Git \textbullet{} Kubernetes \textbullet{} MySQL \textbullet{} MongoDB \\
+Colab \textbullet{} Kaggle \textbullet{} Wordpress \textbullet{} FFMPEG \\
+... and growing
+\sectionsep
+
+\section{Certifications}
+Best Oratory Skills Award (Ryan)\\
+Techno Savvy Award (Ryan)\\
+\href{https://www.sololearn.com/certificates/CC-TJRFBFGZ}{Sololearn://Javascript}\\
+\href{https://www.google.com}{Sololearn://C++}\\
+\href{https://www.google.com}{HackerRank://SQL}\\
 \sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -168,82 +138,127 @@ AS3 \textbullet{} iOS \textbullet{} Android \textbullet{} MySQL
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Experience}
-\runsubsection{Facebook}
-\descript{| Software Engineer }
-\location{Jan 2015 - Present | New York, NY}
-\sectionsep
-
-\runsubsection{Coursera}
-\descript{| KPCB Fellow + Software Engineering Intern }
-\location{June 2014 – Sep 2014 | Mountain View, CA}
+\runsubsection{Stealth Startup}
+\descript{DevOps Engineer | Full-time}
+\location{April 2023 - Present | Canada, Remote}
 \vspace{\topsep} % Hacky fix for awkward extra vertical space
 \begin{tightemize}
-\item 52 out of 2500 applicants chosen to be a KPCB Fellow 2014.
-\item Led and shipped Yoda - the admin interface for the new Phoenix platform. 
-\item Full-stack developer - Wrote and reviewed code for JS using Backbone, Jade, Stylus and Require and Scala using Play
+\item Logs Review, Resources Install, Deployed and Managed Openstack.
+\item Managing CI/CD, Docker, Kubernetes, ELK, BARE METAL Deployments.
+\item MEAN and Monitoring Stacks, Active Monitoring, Linux Development. 
+\item Developed Consul and Vault, other Hashicorps based secure tools.
+\item Active Discovery, SSL Renew, Certbot,etc.
 \end{tightemize}
 \sectionsep
 
-\runsubsection{Google}
-\descript{| Software Engineering Intern }
-\location{May 2013 – Aug 2013 | Mountain View, CA}
+\runsubsection{Upwork INC.}
+\descript{TOP RATED UPWORK FREELANCER}
+\location{Oct 2022 - Present | Remote}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
 \begin{tightemize}
-\item Worked on the YouTube Captions team, in Javascript and Python to plan, to design and develop the full stack to add and edit Automatic Speech Recognition captions. In production.
-\item Created a backbone.js-like framework for the Captions editor.
+\item Stack Mastery: Proficient in DevOps, programming, CDN, and more.
+\item Upwork Journey: Over the past 12 months on Upwork, I've earned 30,000+ USD with a stellar track record of 5-star reviews.
+\item Industry Impact: Contributed to projects with major car manufacturers and Insurance companies, VPN Providers, Healthcare and Personal Projects.
+\item Tech Stacks: Led projects using Python, Golang, Rust, and front-end technologies, Major Devops and Docker etc. projects.
 \end{tightemize}
 \sectionsep
 
-\runsubsection{Phabricator}
-\descript{| Open Source Contributor \& Team Leader}
-\location{Jan 2013 – May 2013 | Palo Alto, CA \& Ithaca, NY}
+\runsubsection{Wafercode Inc.}
+\descript{Company Owner | Part-time}
+\location{Jan 2023 – Present | Remote}
 \begin{tightemize}
-\item Phabricator is used daily by Facebook, Dropbox, Quora, Asana and more.
-\item I created the Meme generator and more in PHP and Shell.
-\item Led a team from MIT, Cornell, IC London and UHelsinki for the project.
+\item Owner and Team Lead at Wafercode, I lead a dedicated team of 5-10 professionals in delivering end-to-end solutions for business owners and startups.
+\item Till Updation date, delivered 200+ projects, have consistently met client objectives and industry standards. 
+\item Have excellent recurring and trusted clients whom we are thankful and promptly work with.
 \end{tightemize}
 \sectionsep
+
+\runsubsection{Stealth Startup (Health-Tech)}
+\descript{Golang Developer and DevOps Engineer | Full-time}
+\location{Jan 2023 – Apr 2023 | United States, Remote}
+\begin{tightemize}
+\item Engineered a robust Golang-based system incorporating websockets for real-time communication in a health-focused application.    
+\item Successfully deployed the full Application,API Gateway on Ubuntu based EC2 AWS and Digital Ocean as Failover.
+\item Orchestrated containerized applications using Docker, optimizing scalability and resource utilization.
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Google Summer of Code 2022}
+\descript{GSOC Intern@ Jitsi | Internship}
+\location{May 2022 – Aug 2022 | United States, Remote}
+\begin{tightemize}
+\item Collaborated on the development of the Jitsi open-source project, a Python-based video conferencing platform (jitsi.org).
+\item Implemented and maintained Bash scripts for seamless integration with cloud storage services, including Dropbox and Google Drive.
+\item Enhanced the platform's functionality to enable the upload of meeting recordings to cloud storage upon user request.
+\item Managed OAuth details from service providers, ensuring secure and reliable authentication mechanisms.
+\end{tightemize}
+\sectionsep
+\end{minipage} 
+
+% Add this line to start a new page
+\newpage
+\hfill
+\begin{minipage}[t]{0.66\textwidth} 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     RESEARCH
+%     PROJECTS
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\section{Research}
-\runsubsection{Cornell Robot Learning Lab}
-\descript{| Researcher}
-\location{Jan 2014 – Jan 2015 | Ithaca, NY}
-Worked with \textbf{\href{http://www.cs.cornell.edu/~ashesh/}{Ashesh Jain}} and \textbf{\href{http://www.cs.cornell.edu/~asaxena/}{Prof Ashutosh Saxena}} to create \textbf{PlanIt}, a tool which  learns from large scale user preference feedback to plan robot trajectories in human environments.  
+\section{Projects}
+\runsubsection{Hostel Managment System}
+\descript{| Backend Developer FASTAPI Python}
+\location{Feb 2023 –  Mar 2023 | }
+Worked with Fellow CS Students to make a Hostel Managment System, solely made backend of App FASTAPI based CRUD System with Login and Logout. Used Python, MySQL, Cookies-Json Web Token.\textbf{\href{https://github.com/aayush-ag/dbms-hostel}{Github Link}}.  
 \sectionsep
 
-\runsubsection{Cornell Phonetics Lab}
-\descript{| Head Undergraduate Researcher}
-\location{Mar 2012 – May 2013 | Ithaca, NY}
-Led the development of \textbf{QuickTongue}, the first ever breakthrough tongue-controlled game with \textbf{\href{http://conf.ling.cornell.edu/~tilsen/}{Prof Sam Tilsen}} to aid in Linguistics research. 
+\runsubsection{Home and Cloud Lab Setup}
+\descript{| System Architect and Administrator}
+\location{Ongoing | Home and Cloud Environments}
+\vspace{\topsep}
+\begin{tightemize}
+\item Designed and implemented a comprehensive home and cloud lab infrastructure for personal projects and experimentation.
+\item Architectured deployment strategies for various applications, ensuring scalability, security, and high availability across on-premises and cloud environments.
+\item Utilized technologies such as Docker, Kubernetes, FreeNAS, and ZFS pools to optimize resource utilization and data management.
+\item Configured a media server for streaming and managing multimedia content.
+\item Implemented a data warehouse for efficient data storage and retrieval in both local and cloud environments.
+\item Hosted a variety of self-hosted applications for different purposes, including productivity tools, converters, and more.
+\item Implemented Single Sign-On (SSO) using Keycloak with additional security provided by YubiKey for unified and secure authentication across services.
+\item Configured and maintained around 100+ applications, ranging from small utilities to larger open-source projects.
+\item Utilized Rclone to mount cloud storage services like Dropbox, Google Drive, and implemented rsync for backup solutions.
+\item Implemented snapshot mechanisms for data protection and recovery.
+\item Established a self-hosted VPN and SOCKS server hosted on a variety of servers for secure remote access.
+\item Integrated a remote Windows VM using Proxmox for virtualization and management.
+\item Implemented additional security measures, including YubiKey for authentication and encryption.
+\item Configured a personal VPN for secure and private communication.
+\item Documented the entire architecture and setup for future reference and knowledge sharing.
+\end{tightemize}
 \sectionsep
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     AWARDS
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\section{Awards} 
-\begin{tabular}{rll}
-2014	     & top 52/2500  & KPCB Engineering Fellow\\
-2014	     & 1\textsuperscript{st}/50  & Microsoft Coding Competition, Cornell\\
-2013	     & National  & Jump Trading Challenge Finalist\\
-2013     & 7\textsuperscript{th}/120 & CS 3410 Cache Race Bot Tournament  \\
-2012     & 2\textsuperscript{nd}/150 & CS 3110 Biannual Intra-Class Bot Tournament \\
-2011     & National & Indian National Mathematics Olympiad (INMO) Finalist \\
-\end{tabular}
-\sectionsep
+% \section{Awards} 
+% \begin{tabular}{rll}
+% 2014	     & top 52/2500  & KPCB Engineering Fellow\\
+% 2014	     & 1\textsuperscript{st}/50  & Microsoft Coding Competition, Cornell\\
+% 2013	     & National  & Jump Trading Challenge Finalist\\
+% 2013     & 7\textsuperscript{th}/120 & CS 3410 Cache Race Bot Tournament  \\
+% 2012     & 2\textsuperscript{nd}/150 & CS 3110 Biannual Intra-Class Bot Tournament \\
+% 2011     & National & Indian National Mathematics Olympiad (INMO) Finalist \\
+% \end{tabular}
+% \sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     PUBLICATIONS
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\section{Publications} 
-\renewcommand\refname{\vskip -1.5em} % Couldn't get this working from the .cls file
-\bibliographystyle{abbrv}
-\bibliography{publications}
-\nocite{*}
+% \section{Publications} 
+% \renewcommand\refname{\vskip -1.5em} % Couldn't get this working from the .cls file
+% \bibliographystyle{abbrv}
+% \bibliography{publications}
+% \nocite{*}
 
 \end{minipage} 
 \end{document}  \documentclass[]{article}
